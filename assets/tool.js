@@ -197,6 +197,7 @@
       resultEl.innerHTML = out.html;
       resultEl.setAttribute("data-copy", out.text || "");
       if (copyBtn) copyBtn.disabled = !out.text;
+      if (typeof window.gtag === "function") window.gtag("event", "tool_use", { action: "generate" });
     }
 
     function copy() {
