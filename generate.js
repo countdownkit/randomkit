@@ -55,7 +55,7 @@ function layout({ title, desc, urlPath, h1, body }) {
 </main>
 <footer class="site-foot"><div class="wrap">
   <a href="${BASE}/">Home</a><a href="${BASE}/#numbers">Numbers &amp; dice</a><a href="${BASE}/#teams">Names &amp; teams</a><a href="${BASE}/#fun">Fun</a>
-  <span>· ${SITE} — free random generators. No downloads, no signups: everything runs in your browser. Part of <a href="https://elevatedprogress.com/">Elevated Progress</a>.</span>
+  <span>· ${SITE} — free random generators. No downloads, no signups: everything runs in your browser. Part of <a href="https://elevatedprogress.com/">Elevated Progress</a>. · <a href="https://elevatedprogress.com/privacy/">Privacy Policy</a></span>
 </div></footer>
 <script src="${BASE}/rnd.js"></script>
 <script src="${BASE}/tool.js" defer></script>
